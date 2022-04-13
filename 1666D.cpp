@@ -15,7 +15,7 @@ int main()
         bool flag = 0;
         for(int i=a.size()-1;i>=0;i--)
         {
-            if(a[i]==b[i])
+            if(a[i]==b[j])
             {
                 if(t[a[i]-'A']) break;
                 j--;
